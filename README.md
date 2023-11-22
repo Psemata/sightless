@@ -28,5 +28,5 @@ The game executable and the demonstration video are located in the project's ren
 * Bruno Costa, [@bruno.costa](https://gitlab-etu.ing.he-arc.ch/bruno.costa).
 * Diogo Lopes Da Silva, [@diogo.lopesdas](https://gitlab-etu.ing.he-arc.ch/diogo.lopesdas).
 * Valentino Izzo, [@valentin.izzo](https://gitlab-etu.ing.he-arc.ch/valentin.izzo).
-- Lenny Boegli
-- Loïc Frossard
+* Lenny Boegli
+* Loïc Frossard
