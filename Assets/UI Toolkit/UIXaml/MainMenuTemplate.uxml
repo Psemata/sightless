@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="/Assets/UI Toolkit/UIStylesheets/mainMenu.uss" />
+    <ui:VisualElement name="Screen" style="align-items: stretch; flex-direction: row; justify-content: center; height: 100%; width: 100%; -unity-background-image-tint-color: rgb(66, 130, 152); background-color: rgb(60, 60, 60); background-image: url(&apos;/Assets/UI Toolkit/image/background.png&apos;);">
+        <ui:VisualElement name="Center" style="width: 100%; height: 100%; background-image: url(&apos;/Assets/UI Toolkit/image/paper_sans_texte.png&apos;); justify-content: flex-start; align-items: stretch;">
+            <ui:Button text="Play" name="play" class="button horror-font" style="position: absolute; left: 41%; top: 44%; right: 50%;" />
+            <ui:Label text="Sightless" display-tooltip-when-elided="true" name="Title" class="title horror-font" style="position: absolute; left: 45%; right: 45%; top: 13%; -unity-text-align: upper-center; font-size: 45%;" />
+            <ui:Button text="Exit" display-tooltip-when-elided="true" name="quit" class="button horror-font" style="left: 40%; right: 50%; position: absolute; top: 70%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

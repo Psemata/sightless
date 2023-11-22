@@ -1,0 +1,27 @@
+.horror-font {
+    color: rgb(0, 101, 188);
+    font-size: 18px;
+    -unity-font: url('/Assets/UI Toolkit/Font/October_Crow.ttf');
+    -unity-font-definition: resource('FontAssets/DynamicOSFontAssets/GlobalFallback/OSX/Arial SDF');
+}
+
+.button {
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    font-size: 200%;
+}
+
+.button:hover {
+    background-color: rgba(255, 167, 69, 0.57);
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.credit_font {
+    color: rgba(0, 0, 0, 255);
+}

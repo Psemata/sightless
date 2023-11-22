@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Scripts/Audio/AnimationPlayerSound.cs.meta
+guid: 121dd5528ee21d24fb89211fafb05418
+=======
+guid: 373b52eb9bf8c40f785bb6947a1aee66
+>>>>>>> 6deebd2d5ba32c975db6cc29962b8bee09fb89e6:Assets/AstarPathfindingProject/Core/AI/Seeker.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

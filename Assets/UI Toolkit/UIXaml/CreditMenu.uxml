@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="/Assets/UI Toolkit/UIStylesheets/mainMenu.uss" />
+    <ui:VisualElement name="Screen" style="flex-direction: row; height: 100%; width: 100%; background-image: url(&apos;/Assets/UI Toolkit/image/background.png&apos;);">
+        <ui:VisualElement name="left" style="height: 100%; width: 25%;" />
+        <ui:VisualElement name="center" style="height: 100%; width: 50%;">
+            <ui:Label text="Bravo !!!" display-tooltip-when-elided="true" class="credit_font" style="font-size: 50px; -unity-text-align: upper-center; top: 15%; position: relative; -unity-font: url(&apos;/Assets/UI Toolkit/Font/October_Crow.ttf&apos;); -unity-font-definition: resource(&apos;FontAssets/DynamicOSFontAssets/GlobalFallback/OSX/Arial SDF&apos;); -unity-font-style: bold;" />
+            <ui:Label text="Vous avez reussi" display-tooltip-when-elided="true" class="horror-font credit_font" style="-unity-text-align: upper-center; font-size: 30px; position: relative; top: 17%; white-space: nowrap; -unity-font: url(&apos;/Assets/UI Toolkit/Font/October_Crow.ttf&apos;); -unity-font-definition: resource(&apos;FontAssets/DynamicOSFontAssets/GlobalFallback/OSX/Arial SDF&apos;); -unity-font-style: bold;" />
+            <ui:VisualElement name="panelPersonne" style="top: 20%; flex-direction: row; margin-left: 40px; margin-right: 40px; margin-top: 40px; margin-bottom: 40px;">
+                <ui:VisualElement name="left" style="width: 50%;">
+                    <ui:Label text="Developper" display-tooltip-when-elided="true" class="credit_font" style="-unity-text-align: upper-center; font-size: 30px;" />
+                    <ui:Label text="Boegli Lenny&#10;Costa Bruno&#10;Frossard Loïc&#10;Izzo Valentino&#10;Lopes Da Silva Diogo" display-tooltip-when-elided="true" enable-rich-text="true" class="credit_font" style="-unity-text-align: upper-center; font-size: 25px;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="right" style="width: 50%;">
+                    <ui:Label text="Graphistes" display-tooltip-when-elided="true" class="credit_font" style="-unity-text-align: upper-center; font-size: 30px;" />
+                    <ui:Label text="Ducret Tiffany&#10;Dusapin Maera&#10;Genuardi Darma" display-tooltip-when-elided="true" enable-rich-text="true" class="credit_font" style="-unity-text-align: upper-center; font-size: 25px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Button text="Back to Menu" display-tooltip-when-elided="true" name="menu" style="bottom: 15%; position: absolute; width: 26%; font-size: 30px; left: 37%; right: 37%;" />
+            <ui:VisualElement style="position: absolute; bottom: 0; width: 100%; height: 15%; align-items: center;">
+                <ui:IMGUIContainer style="background-image: url(&apos;/Assets/UI Toolkit/image/logo_ing.png&apos;); height: 100%; width: 60%; position: relative;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="right" style="width: 25%; height: 100%;" />
+    </ui:VisualElement>
+</ui:UXML>

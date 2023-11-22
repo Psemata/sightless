@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="/Assets/UI Toolkit/UIStylesheets/mainMenu.uss" />
+    <ui:VisualElement name="background" style="width: 100%; height: 100%; justify-content: center; align-items: center; flex-direction: column; flex-shrink: 1; flex-wrap: nowrap; background-image: url(&apos;/Assets/UI Toolkit/image/background.png&apos;);">
+        <ui:Button text="Resume" display-tooltip-when-elided="true" name="resume" class="horror-font button" style="-unity-text-align: middle-center; font-size: 80px; color: rgb(0, 0, 0);" />
+        <ui:Button text="Menu" display-tooltip-when-elided="true" name="menu" class="horror-font button" style="font-size: 80px; color: rgb(0, 0, 0);" />
+    </ui:VisualElement>
+</ui:UXML>

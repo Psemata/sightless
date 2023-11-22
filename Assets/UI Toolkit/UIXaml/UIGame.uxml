@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="PauseMenu" src="PauseMenu.uxml" />
+    <ui:Template name="GameOver" src="GameOver.uxml" />
+    <ui:Template name="CreditMenu" src="CreditMenu.uxml" />
+    <UIGameManager style="position: absolute; left: 0; top: 0; right: 0; bottom: 0;">
+        <ui:Instance template="GameOver" name="GameOver" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0;" />
+        <ui:Instance template="CreditMenu" name="CreditMenu" tabindex="1" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0;" />
+        <ui:Instance template="PauseMenu" name="PauseMenu" tabindex="2" style="left: 0; position: absolute; top: 0; right: 0; bottom: 0;" />
+    </UIGameManager>
+</ui:UXML>
